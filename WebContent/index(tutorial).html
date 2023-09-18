@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>User form</title>
+</head>
+<body>
+<form action="tutorial4" method="POST">
+name:<input name="username">
+<br><br>
+age:<input name="userage">
+<br><br>
+Gender: <input type="radio" name="gender" value="female" checked/>Female
+ <input type="radio" name="gender" value="male" >male
+ <br><br>
+ Country: <select name="country">
+ <option>Canada</option>
+ <option>Spain</option>
+ <option>France</option>
+ </select>
+ <br><br>
+ Courses:
+ <input type="checkbox" name="courses" value="JavaSE" checked/>Java SE
+  <input type="checkbox" name="courses" value="JavaFX" checked/>Java FX
+   <input type="checkbox" name="courses" value="JavaEE" checked/>Java EE
+   <br><br>
+   <input type="submit" value="Submit" />
+   </form>
+</body>
+</html>
